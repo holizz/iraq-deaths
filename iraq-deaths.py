@@ -48,7 +48,7 @@ p1 = plt.bar(ind, cvTotals, width, color='r')
 p2 = plt.bar(ind, brTotals, width, color='y', bottom=cvTotals)
 
 plt.ylabel('Deaths')
-plt.title('Deaths in Iran')
+plt.title('Deaths in Iraq')
 plt.xticks(ind+width/2., sorted(cv_per_year.keys()))
 plt.yticks(numpy.arange(0,1500,100))
 plt.legend( (p1[0], p2[0]), ('Civilians', 'British soldiers') )
